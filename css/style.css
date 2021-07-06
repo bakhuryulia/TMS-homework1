@@ -1,0 +1,208 @@
+* { padding: 0 auto;
+    margin: 0 auto;
+}
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Roboto-Regular.woff2") 
+    format("woff2")
+}
+body {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Roboto-Regular.woff2") 
+    format("woff2")
+}
+header {
+    width: 1400px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+
+    background: #000000;}
+
+header label.heading {
+    position: absolute;
+    width: 68px;
+    height: 31px;
+    left: 110px;
+    top: 20px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    
+    color: #FFFFFF;
+}
+
+nav.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px;
+
+    width: 489px;
+    height: 20px;
+    left: 803px;
+    top: 25px;
+}
+a {
+    position: static;
+    width: 76px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+h1 {
+    display: none;
+}
+
+section.container {
+    background-color: black;
+    background-image: url(../assets/background1.png);
+    background-size: auto;
+    height: 601px;
+    width: 1400px;
+}
+
+p.label {
+    position: absolute;
+    width: 129px;
+    height: 70px;
+    left: 110px;
+    top: 108px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 70px;
+
+    color: #FFFFFF;
+}
+
+h2.slogan {
+    position: absolute;
+    width: 544px;
+    height: 99px;
+    left: 110px;
+    top: 210px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+div.devider{
+    position: absolute;
+    width: 64px;
+    height: 0px;
+    left: 110px;
+    top: 341px;
+
+    border: 1px solid #FFFFFF;
+}
+
+.container p.text {
+    position: absolute;
+    width: 282px;
+    height: 38px;
+    left: 110px;
+    top: 380px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: rgba(255, 255, 255, 0.8);
+}
+
+button.btn {
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 110px;
+    top: 457px;
+    
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box; 
+}
+
+div.form {
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    left: 919px;
+    top: 110px;
+
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+section.Media {
+    background-color:  #F8EFEF;
+    background-size: auto;
+    height: 70px;
+    width: 1400px;
+}
+h3.lead {
+    position: relative;
+    width: 125px;
+    height: 27px;
+    left: 111px;
+    top: 14px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #333333;
+}
+p.text1 {
+    position: relative;
+    width: 365px;
+    height: 38px;
+    left: 111px;
+    top: 55px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: #86878B;
+}
+img.Social {
+    position: relative;
+    width: 684px;
+    height: 42px;
+    left: 605px;
+    top: 34px;
+}
+
+
